@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Aid – R1500 Basic life support, emergency scene management, CPR, wounds, burns, and fractures.  Sewing – R1500 Alterations, stitching, sewing zips/buttons, and designing new garments.  Landscaping – R1500 Garden layout, plant selection, aesthetics, and fixed structures.  Life Skills – R1500 Basic reading, writing, and numeracy to navigate daily life."
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="Back to Home"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="170dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/img" />
+
+</LinearLayout>
